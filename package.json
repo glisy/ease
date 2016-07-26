@@ -1,0 +1,8 @@
+{
+  "name": "glisy",
+  "version": "0.0.1",
+  "repo": "glisy/ease",
+  "description": "Easing function macros",
+  "keywords": ["gl", "glisy", "easing"],
+  "src": [ "include/glisy/ease.h" ]
+}
