@@ -14,6 +14,12 @@ $ clib install glisy/ease  --save
 ```c
 #include <glisy/ease.h>
 ...
+float time = glfwGetTime();
+vec3 from = {0, 0, 0};
+vec3 to = {3, 3, 3};
+float from.x = ease_in_cubic(time, from.x, 1, to.x);
+float from.y = ease_in_cubic(time, from.y, 1, to.y);
+float from.z = ease_in_cubic(time, from.z, 1, to.z);
 ```
 
 ## api
