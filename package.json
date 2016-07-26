@@ -1,6 +1,6 @@
 {
   "name": "glisy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repo": "glisy/ease",
   "description": "Easing function macros",
   "keywords": ["gl", "glisy", "easing"],
